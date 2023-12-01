@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet" href="css/home-style.css">
+</head>
+<body>
+
+    <!-- header -->
+    <header class="header">
+        <a href="#" class="logo"><img class="logo-img" src="image/jco-logo.png" alt="logo" id="poster"></a>
+
+        <nav class="navbar">
+            <a href="#sec-1">home</a>
+            <a href="#features">features</a>
+            <a href="donuts.html">products</a>
+            <a href="#categories">categories</a>
+            <a href="#testi">review</a>
+            <a href="#blogs">blogs</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="image/cart-img-1.png" alt="">
+                <div class="content">
+                    <h3>watermelon</h3>
+                    <span class="price">$4.99</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="image/cart-img-2.png" alt="">
+                <div class="content">
+                    <h3>onion</h3>
+                    <span class="price">$4.99</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="image/cart-img-3.png" alt="">
+                <div class="content">
+                    <h3>chicken</h3>
+                    <span class="price">$4.99</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="total"> total : $19.69/-</div>
+            <a href="#" class="btn">checkout</a>
+        </div>
+
+        <form action="" class="login-form">
+            <h3>Login Now</h3>
+            <input type="email" placeholder="you email" class="box">
+            <input type="password" placeholder="submit" class="box">
+            <p>forget your password <a href="#">click here</a></p>
+            <p>don't have an account <a href="#">creat now</a></p>
+            <input type="submit" value="login now" class="btn">
+        </form>
+    </header>
+    <!-- header end -->
+
+    <!-- home section -->
+    <section class="sec-1" id="sec-1" style="margin-top: 94px;">
+
+        <div class="swiper sec-1-slider">
+
+            <div class="swiper-wrapper">
+
+
+                <div class="swiper-slide slide" style="background: url(image/home-slide-1.jpeg) no-repeat;">
+                    <div class="content">
+                        <span>outstanding food</span>
+                        <h3>delicious cooking</h3>
+                        <a href="#" class="btn">get started</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide"  style="background: url(image/home-slide-2.jpeg) no-repeat;">
+                    <div class="content">
+                        <span>outstanding food</span>
+                        <h3>delicious cooking</h3>
+                        <a href="#" class="btn">get started</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+             
+        </div>
+    </section>
+    <!-- home section end -->
+
+    <!-- about section start -->
+
+    <section class="about">
+        <div class="image">
+            <img src="image/home-slide-2.jpeg" alt="">
+        </div>
+    
+        <div class="content">
+            <h3 class="title">OUR FLUFFY DONUTS</h3>
+            <p>The secret to our donuts isn’t just in our dough, but in the finest quality ingredients that “speak” for themselves. Rich and dark chocolate, crunchy and crisp Australian almonds, New Zealand smooth cream cheese, and premium Japanese matcha just to name a few. We don’t do shortcuts. Real ingredients are more delicious.</p>
+        </div>
+
+    </section>
+    
+
+    <!-- about section end -->
+
+    <!-- categories section start --
+        
+            
+            </div>
+        </div> -->
+
+        <section class="categories" id="categories">
+            <div class="heading">
+                <h1>Browse Our Hottest <br> <span>Categories</span></h1>
+                <a href="#" class="btn">See All<i class='bx bx-right-arrow-alt'></i></a>
+            </div>
+
+            <!-- container content -->
+            <main class="main bd-grid">
+                <article class="card" style="background: #D4C0B9;">
+                    <div class="card_img">
+                        <img src="image/img3-cat.png" alt="">
+                    </div>
+                    <div class="card_name">
+                        <p>Donuts</p>
+                    </div>
+                    <div class="card_precis">
+                        <a href="" class="card_icon">
+                            <ion-icon name="heart-outline"></ion-icon>
+                        </a>
+
+                        <div>
+                            <span class="card_preci  card_preci--before">$990.00</span>
+                            <span class="card_preci  card_preci--now">$749.00</span>
+                        </div>
+                        <a href="donuts.html" class="card_icon">
+                            <ion-icon name="chevron-forward-circle-outline">
+                                
+                            </ion-icon>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="card" style="background: #F2E7CA;">
+                    <div class="card_img">
+                        <img src="image/img1-cat.png" alt="">
+                    </div>
+                    <div class="card_name">
+                        <p>J.Club</p>
+                    </div>
+                    <div class="card_precis">
+                        <a href="" class="card_icon">
+                            <ion-icon name="heart-outline"></ion-icon>
+                        </a>
+
+                        <div>
+                            <span class="card_preci  card_preci--before">$990.00</span>
+                            <span class="card_preci  card_preci--now">$749.00</span>
+                        </div>
+                        <a href="" class="card_icon">
+                            <ion-icon name="chevron-forward-circle-outline"></ion-icon>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="card" style="background: #D4D2D3;">
+                    <div class="card_img">
+                        <img src="image/img2-cat.png" alt="">
+                    </div>
+                    <div class="card_name">
+                        <p>J.Cool</p>
+                    </div>
+                    <div class="card_precis">
+                        <a href="" class="card_icon">
+                            <ion-icon name="heart-outline"></ion-icon>
+                        </a>
+
+                        <div>
+                            <span class="card_preci  card_preci--before">$990.00</span>
+                            <span class="card_preci  card_preci--now">$749.00</span>
+                        </div>
+                        <a href="" class="card_icon">
+                            <ion-icon name="chevron-forward-circle-outline"></ion-icon>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="card" style="background: #E0DEE8;">
+                    <div class="card_img">
+                        <img src="image/img4-cat.png" alt="">
+                    </div>
+                    <div class="card_name">
+                        <p>J.Coffee</p>
+                    </div>
+                    <div class="card_precis">
+                        <a href="" class="card_icon">
+                            <ion-icon name="heart-outline"></ion-icon>
+                        </a>
+
+                        <div>
+                            <span class="card_preci  card_preci--before">$990.00</span>
+                            <span class="card_preci  card_preci--now">$749.00</span>
+                        </div>
+                        <a href="" class="card_icon">
+                            <ion-icon name="chevron-forward-circle-outline"></ion-icon>
+                        </a>
+                    </div>
+                </article>
+            </main>
+
+        </section>
+
+
+    <!-- categories section end -->
+
+
+    <!-- delivery start -->
+    <section id="order" class="order">
+
+        <div class="heading">
+            <span>Order Now</span>
+            <h3>Fast Home Delivery</h3>
+        </div>
+
+        <form action="">
+            <div class="box-container">
+                <div class="box">
+                    <div class="inputBox">
+                        <span>Full Name</span>
+                        <input type="text" placeholder="enter your name">
+                    </div>
+
+                    <div class="inputBox">
+                        <span>Food Name</span>
+                        <input type="text" placeholder="food you want">
+                    </div>
+
+                    <div class="inputBox">
+                        <span>Order Details</span>
+                        <input type="text" placeholder="Specifics with food">
+                    </div>
+
+                    <div class="inputBox">
+                        <span>your address</span>
+                        <textarea name="" placeholder="enter you address" id="" cols="30" rows="10"></textarea>
+                    </div>
+
+                </div>
+
+
+                <div class="box">
+                    <div class="inputBox">
+                        <span>number</span>
+                        <input type="number" placeholder="enter your number">
+                    </div>
+
+                    <div class="inputBox">
+                        <span>How Much</span>
+                        <input type="number" placeholder="how many you want">
+                    </div>
+
+                    <div class="inputBox">
+                        <span>When You Want</span>
+                        <input type="datetime-local">
+                    </div>
+
+                    <div class="inputBox">
+                        <span>Our address</span>
+                        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253757.1643189013!2d106.67120939453127!3d-6.399711099999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c1a775be61ff%3A0x5738cae87fa248c4!2sJCO%20DONUTS%20%26%20COFFEE%20ITC%20CIBINONG%20MALL!5e0!3m2!1sid!2sid!4v1701220001922!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+            <input type="submit" value="order now" class="btn">
+        </form>
+    </section>
+    <!-- delivery end -->
+
+    <!-- testimoni start -->
+    <section class="testi" id="testi">
+        <div class="testimoni">
+            <div class="left-testi">
+                <h1>Read what out customer love about us</h1>
+
+                <p>
+                    over 200 companies frim devirse sectors consult us to enhance the use experience of their products and services.
+                </p>
+        
+                <p>
+                    we had helped companies increase their customer base and generate multifold revenue with our service
+                </p>
+        
+            </div>
+        </div>
+
+        <div class="right-testi">
+            <div class="card-testi">
+                <img src="image/user1.png" alt="user">
+                <div class="card-content">
+                    <span><i class='bx bxs-quote-alt-left' ></i></span>
+                    <div class="card-detailss">
+                        <p>
+                            "Saya telah menjadi penggemar berat J.CO Donuts selama bertahun-tahun, dan perubahan pada website mereka benar-benar luar biasa! Navigasinya lebih mudah, saya dapat dengan cepat menemukan donat favorit saya, dan tampilan yang responsif membuat pengalaman berbelanja sangat nyaman. Terima kasih, J.CO, untuk meningkatkan pengalaman online saya!"
+                        </p>
+                        <h4>Anna K.</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-testi">
+                <img src="image/user2.png" alt="user">
+                <div class="card-content">
+                    <span><i class='bx bxs-quote-alt-left' ></i></span>
+                    <div class="card-detailss">
+                        <p>
+                            "Website baru J.CO benar-benar mempermudah saya untuk mengeksplorasi variasi donat yang ditawarkan. Saya sangat mengapresiasi kejelasan informasi dan kemudahan berbelanja. Pengalaman online saya sekarang lebih menyenangkan dan efisien"
+                        </p>
+                        <h4>Rizky P.</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-testi">
+                <img src="image/user3.png" alt="user">
+                <div class="card-content">
+                    <span><i class='bx bxs-quote-alt-left' ></i></span>
+                    <div class="card-detailss">
+                        <p>
+                            "Donat J.CO selalu menjadi pilihan utama saya, dan sekarang dengan website yang baru, semuanya jadi lebih baik! Navigasinya sangat intuitif, dan saya suka bagaimana informasi produk disajikan dengan jelas. Terima kasih J.CO, saya akan terus setia!"
+                        </p>
+                        <h4>Siti R.</h4>
+                    </div>
+                </div>
+            </div>
+    </div>
+    
+    
+
+    </section>
+
+    <!-- testimoni end -->
+
+    
+        <!-- footer -->
+            <footer style="background: orange; margin-top: 20%;">
+                <div class="row">
+                    <div class="col">
+                        <img src="image/jco-logo.png" class="logoo" alt="">
+                        <p>Our dough recipe took years and many trials to perfect, just like Edison’s light bulb.</p>
+                    </div>
+                    <div class="col">
+                        <h3>Office <div class="underline"><span></span></div></h3>
+                        <p>ITPL Road</p>
+                        <p>Karnataka, PIN 467232, Indonesia</p>
+                        <p class="email-id">dfaadsaa@gmail.com</p>
+                        <h4>321121</h4>
+                    </div>
+                    <div class="col">
+                        <h3>Links  <div class="underline"><span></span></h3>
+                        <ul>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Features</a></li>
+                            <li><a href="">Products</a></li>
+                            <li><a href="">Categories</a></li>
+                            <li><a href="">Reviews</a></li>
+                            <li><a href="">Blogs</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h3>Newslatter  <div class="underline"><span></span></h3>
+                        <form class="email-id">
+                            <i class='bx bxl-gmail' ></i>
+                            <input type="email" placeholder="Enter you email id" required>
+                            <button type="submit"><i class='bx bx-right-arrow-alt'></i></button>
+                        </form>
+                        <div class="social-icons">
+                            <i class='bx bxl-facebook-circle' ></i>
+                            <i class='bx bxl-instagram' ></i>
+                            <i class='bx bxl-twitter' ></i>
+                            <i class='bx bxl-gmail' ></i>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <p class="">Lorem, ipsum dolor.</p>
+             </footer>
+
+             
+         <!-- footer end -->
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    <script></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
